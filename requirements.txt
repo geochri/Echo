@@ -1,1 +1,20 @@
+#### TESTING-RELATED PACKAGES ####
+# Checks style, syntax, and other useful errors.
+flake8==3.7.9
 
+# Static type checking
+mypy==0.730
+
+# Automatic code formatting
+black==19.10b0
+
+# For creating git precommit hooks
+pre-commit==1.18.3
+
+# For PyTorch and TensorFlow support
+torchvision
+tensorflow
+
+# For build coverage
+codecov
+pillow>=7.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
